@@ -45,11 +45,11 @@ body,
 	color: #666;
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,
 .navigation ul li a,
 .side-navigation ul li a,
@@ -60,16 +60,16 @@ h6,
 cite,
 .portfolio-filter-menu a,
 .counter .stat-counter,
-.overlay-info .project-title, 
+.overlay-info .project-title,
 .font-alt-1,
-.accordion li a, 
+.accordion li a,
 .tabs li a,
 .overlay-navigation-wrapper .site-search .form-element{
 	font-family: 'Lato', 'Helvetica Neue', sans-serif;
 }
 
 /* Links */
-a, 
+a,
 p a,
 .box a:not(.button){
 	color: #232323;
@@ -138,8 +138,8 @@ h6 a:hover{
 .footer h1, .footer h1 a,
 .footer h2, .footer h2 a,
 .footer h3, .footer h3 a,
-.footer h4, .footer h4 a, 
-.footer h5, .footer h5 a, 
+.footer h4, .footer h4 a,
+.footer h5, .footer h5 a,
 .footer h6, .footer h6 a{
 	color: #999;
 }
@@ -336,7 +336,7 @@ h5.project-title{
 	.blog-wide .post-title{
 		font-size: 3rem;
 	}
-	h5.tms-caption, 
+	h5.tms-caption,
 	.tmp-content h5{
 		font-size: 1.4rem;
 	}
@@ -391,11 +391,11 @@ h5.project-title{
 
 /* charcoal */
 .bkg-charcoal-light{
-	background-color: #333; 
+	background-color: #333;
 	border-color: #333;
 }
 .bkg-hover-charcoal-light:hover{
-	background-color: #333; 
+	background-color: #333;
 	border-color: #333;
 }
 .border-hover-charcoal-light:hover{
@@ -406,11 +406,11 @@ h5.project-title{
 	color: #333;
 }
 .bkg-charcoal{
-	background-color: #232323; 
+	background-color: #232323;
 	border-color: #232323;
 }
 .bkg-hover-charcoal:hover{
-	background-color: #232323; 
+	background-color: #232323;
 	border-color: #232323;
 }
 .border-hover-charcoal:hover{
@@ -575,11 +575,25 @@ h5.project-title{
 /*------------------------------------------------------------------
 [4. Header & Navigation]
 */
+.logo-alta{
 
+}
+
+.header .logo a{
+	color: #000000;
+	width: 200px !important;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	letter-spacing: 0.2rem;
+}
 .header .logo{
 	width: 12.5rem;
-	padding-top: 2.4rem;
+	padding-top: 3rem;
 	padding-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.2rem;
 }
 .header .navigation{
 	padding-top: 3rem;
@@ -605,7 +619,7 @@ h5.project-title{
 }
 .header-1 .navigation > ul > li > a,
 .header-1 .navigation-show a{
-	color: #fff;
+	color: #000000;
 }
 .header-1 .navigation > ul > li > a:hover{
 	opacity: 1;
@@ -618,10 +632,10 @@ h5.project-title{
 	opacity: 0.6;
 }
 .header-1 .side-navigation ul li.current > a{
-	color: #fff;
+	color: #000000;
 }
 .header-1 .navigation > ul > li.current > a{
-	color: #fff;
+	color: #000000;
 	opacity: 1;
 }
 
@@ -641,8 +655,8 @@ h5.project-title{
 	color: #fff;
 	border-bottom: none;
 }
-.header-1-static .navigation-show a:hover, 
-.header-1-static .navigation > ul > li > a:hover, 
+.header-1-static .navigation-show a:hover,
+.header-1-static .navigation > ul > li > a:hover,
 .header-1-static .side-navigation > ul > li > a:hover{
 	color: #fff;
 	opacity: 1;
@@ -784,7 +798,7 @@ h5.project-title{
 }
 
 /* Navigation - Hover Colors */
-.header a:hover.navigation-show a:hover, 
+.header a:hover.navigation-show a:hover,
 .header .side-navigation > ul > li > a:hover{
 	color: #fff;
 	opacity: 0.6;
@@ -809,8 +823,8 @@ h5.project-title{
 .header-background .navigation > ul > li.current > a:hover{
 	color: #fff;
 }
-.header-background .navigation-show a:hover, 
-.header-background .navigation > ul > li > a:hover, 
+.header-background .navigation-show a:hover,
+.header-background .navigation > ul > li > a:hover,
 .header-background .side-navigation > ul > li > a:hover{
 	color: #fff;
 	opacity: 1;
@@ -843,7 +857,7 @@ h5.project-title{
 }
 
 /* iPad Landscape */
-.mobile .header, 
+.mobile .header,
 .mobile .header .header-inner{
 	background: #111;
 }
@@ -853,7 +867,7 @@ h5.project-title{
 
 /* iPad Portrait & Mobile */
 @media only screen and (max-width: 960px){
-	.header, 
+	.header,
 	.header .header-inner{
 		background: #111;
 	}
@@ -982,7 +996,7 @@ h5.project-title{
 /*------------------------------------------------------------------
 [8. Plugin Preloader]
 */
-.tm-loader, 
+.tm-loader,
 .tm-loader #circle{
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -1247,7 +1261,7 @@ h5.project-title{
 .project-2-1{
 	background-image: url(../images/portfolio/project-2/background-image.jpg);
 }
-.project-2-slider, 
+.project-2-slider,
 .project-2-slider li{
 	background: #fff;
 }
@@ -1271,7 +1285,7 @@ h5.project-title{
 	background-image: url(../images/portfolio/project-4/fullscreen-section-1.jpg);
 }
 .project-4-2{
-	background-image: url(../images/portfolio/project-4/fullscreen-section-2.jpg);	
+	background-image: url(../images/portfolio/project-4/fullscreen-section-2.jpg);
 }
 .project-4-3{
 	background-image: url(../images/portfolio/project-4/fullscreen-section-3.jpg);
@@ -1443,7 +1457,7 @@ h5.project-title{
 	    -ms-transition-duration: 400ms;
 	        transition-duration: 400ms;
 }
-.pagination-5 ul li a, 
+.pagination-5 ul li a,
 .pagination-5 ul li a span{
 	line-height: 10rem;
 	font-weight: normal;
@@ -1558,7 +1572,7 @@ h5.project-title{
 	left: 2rem;
 	z-index: 2;
 }
-.post-info-over span, 
+.post-info-over span,
 .post-info-over a{
 	color: #fff;
 }
@@ -1703,12 +1717,12 @@ aside .widget li{
 	position: absolute;
 	font-size: 1rem;
 }
-.contact-form-container .form-element, 
+.contact-form-container .form-element,
 .contact-form-container textarea,
-.signup-form-container .form-element, 
+.signup-form-container .form-element,
 .signup-form-container textarea,
 .search-form-container .form-element,
-.comment-form .form-element, 
+.comment-form .form-element,
 .comment-form textarea{
 	padding-left: 0;
 	padding-right: 0;
@@ -1721,23 +1735,23 @@ aside .widget li{
 	letter-spacing: 0.1rem;
 	color: #999;
 }
-.contact-form-container .form-element, 
+.contact-form-container .form-element,
 .contact-form-container textarea{
 	font-size: 1.3rem;
 }
-.signup-form-container .form-element, 
+.signup-form-container .form-element,
 .signup-form-container textarea{
 	font-size: 1.8rem;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.form-element:focus, 
+.form-element:focus,
 textarea:focus{
 	border-color: #ddd;
 	box-shadow: none;
 	color: #232323;
 }
-.form-element.required-field:focus, 
+.form-element.required-field:focus,
 textarea.required-field:focus{
 	border-color: #e62739;
 	box-shadow: none;
@@ -1829,7 +1843,7 @@ textarea.required-field{
 .overlay-navigation-wrapper .search-form-container :-ms-input-placeholder {
 	color: #fff;
 }
-.overlay-navigation-wrapper .search-form-container .form-element:focus, 
+.overlay-navigation-wrapper .search-form-container .form-element:focus,
 .overlay-navigation-wrapper .search-form-container textarea:focus{
 	color: #fff;
 }
@@ -1922,16 +1936,16 @@ textarea.required-field{
 }
 
 /* Form Element Styling */
-.footer .form-element, 
+.footer .form-element,
 .footer textarea{
 	margin-bottom: 2rem;
 	border-color: #666;
 	font-size: 1.1rem;
 	color: #999;
 }
-.footer .form-element:focus, 
+.footer .form-element:focus,
 .footer textarea:focus,
-.footer .form-element.required-field:focus, 
+.footer .form-element.required-field:focus,
 .footer textarea.required-field:focus{
 	border-color: #666;
 	box-shadow: none;
@@ -1941,13 +1955,13 @@ textarea.required-field{
 	bottom: 2rem;
 	background-color: #fff;
 }
-.footer .form-element.required-field, 
+.footer .form-element.required-field,
 .footer textarea.required-field{
 	background: none;
 	border-color: #e62739;
 	color: #fff;
 }
-.footer .form-element.required-field:focus, 
+.footer .form-element.required-field:focus,
 .footer textarea.required-field:focus{
 	border-color: #e62739;
 }
@@ -2058,7 +2072,7 @@ textarea.required-field{
 	float: none;
 }
 .footer .navigation a,
-.footer .navigation a, 
+.footer .navigation a,
 .footer .social-list a{
 	margin: 0 0.8rem 0 0.6rem;
 	font-size: 0.9rem;
@@ -2069,11 +2083,11 @@ textarea.required-field{
 }
 .footer .navigation li:last-child a{
 	color: #fff;
-} 
+}
 .footer .social-list a{
 	color: #666;
 }
-.footer .navigation a:hover, 
+.footer .navigation a:hover,
 .footer .social-list a:hover{
 	color: #fff;
 }
@@ -2216,7 +2230,7 @@ a.disabled .text-line{
 
 /* Feature Section */
 .feature-2 .feature-image img{
-	width: 90%;	
+	width: 90%;
 }
 
 /* Logo Section */
@@ -2301,7 +2315,7 @@ a.disabled .text-line{
 .accordion ul{
 	margin-top: -1rem;
 }
-.accordion li a, 
+.accordion li a,
 .accordion li.active a{
 	padding: 1rem 0;
 	border-top: none;
@@ -2346,7 +2360,7 @@ a.disabled .text-line{
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.tabs .tab-nav > li a, 
+.tabs .tab-nav > li a,
 .tabs .tab-nav > li.active a{
 	padding: 1rem 0;
 	margin-right: 1.6rem;
@@ -2370,19 +2384,19 @@ a.disabled .text-line{
 .tabs .tab-nav > li a.active .text-line{
 	background-color: #232323;
 }
-.tabs.center .tab-nav > li a, 
+.tabs.center .tab-nav > li a,
 .tabs.center .tab-nav > li.active a{
 	margin-right: 0.8rem;
 	margin-left: 0.8rem;
 }
-.tabs.right .tab-nav > li a, 
+.tabs.right .tab-nav > li a,
 .tabs.right .tab-nav > li.active a{
 	margin-right: 0rem;
 	margin-left: 1.6rem;
 }
-.tabs .tab-nav > li.active a:hover, 
+.tabs .tab-nav > li.active a:hover,
 .tabs .tab-nav > li.active a,
-.tabs.vertical .tab-nav > li a, 
+.tabs.vertical .tab-nav > li a,
 .tabs.vertical .tab-nav > li.active a{
 	background: none;
 	border-top: none;
@@ -2390,7 +2404,7 @@ a.disabled .text-line{
 	border-bottom-color: #666;
 	border-left: none;
 }
-.tabs.vertical .tab-nav > li a, 
+.tabs.vertical .tab-nav > li a,
 .tabs.vertical .tab-nav > li.active a{
 	padding: 1rem 0;
 	border-top: none;
@@ -2399,9 +2413,9 @@ a.disabled .text-line{
 	border-left: none;
 	background: none;
 }
-.tabs.vertical .tab-nav > li.active a:hover, 
+.tabs.vertical .tab-nav > li.active a:hover,
 .tabs.vertical .tab-nav > li.active a,
-.tabs.vertical.right .tab-nav > li.active a:hover, 
+.tabs.vertical.right .tab-nav > li.active a:hover,
 .tabs.vertical.right .tab-nav > li.active a{
 	background: none;
 	border-top: none;
@@ -2544,7 +2558,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/portfolio/project-4/fullscreen-section-1@2x.jpg);
 	}
 	.project-4-2{
-		background-image: url(../images/portfolio/project-4/fullscreen-section-2@2x.jpg);	
+		background-image: url(../images/portfolio/project-4/fullscreen-section-2@2x.jpg);
 	}
 	.project-4-3{
 		background-image: url(../images/portfolio/project-4/fullscreen-section-3@2x.jpg);
