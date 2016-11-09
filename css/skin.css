@@ -529,7 +529,7 @@ h5.project-title{
 	padding-bottom: 11rem;
 }
 .section-block.replicable-content{
-	padding-top: 11rem;
+	padding-top: 6rem;
 	padding-bottom: 8rem;
 }
 .footer-1 .footer-top{
@@ -581,11 +581,12 @@ h5.project-title{
 
 .header .logo a{
 	color: #000000;
-	width: 200px !important;
+	width: 400px;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: 24px;
+	font-size: 30px;
 	letter-spacing: 0.2rem;
+
 }
 .header .logo{
 	width: 12.5rem;
