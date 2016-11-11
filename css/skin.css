@@ -1711,7 +1711,7 @@ aside .widget li{
 
 /* Common Form Styling */
 .contact-form textarea{
-	min-height: 15rem;
+	min-height: 75px;
 }
 .contact-form-container .form-response,
 .signup-form-container .form-response{
