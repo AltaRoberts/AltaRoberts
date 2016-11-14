@@ -65,7 +65,7 @@ cite,
 .accordion li a,
 .tabs li a,
 .overlay-navigation-wrapper .site-search .form-element{
-	font-family: 'Lato', 'Helvetica Neue', sans-serif;
+	font-family: 'Poiret One', 'Helvetica Neue', sans-serif;
 }
 
 /* Links */
@@ -589,7 +589,7 @@ h5.project-title{
 
 }
 .header .logo{
-	width: 12.5rem;
+	width: 19.5rem;
 	padding-top: 2.7rem;
 	padding-bottom: 0;
 	text-transform: uppercase;
