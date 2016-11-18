@@ -615,12 +615,13 @@ h5.project-title{
 .header-1{
 	position: absolute;
 }
+
 .header-1 .header-inner{
 	background-color: rgba(0,0,0,0);
 }
 .header-1 .navigation > ul > li > a,
 .header-1 .navigation-show a{
-	color: #fff;
+	color: #000000;
 }
 .header-1 .navigation > ul > li > a:hover{
 	opacity: 1;
