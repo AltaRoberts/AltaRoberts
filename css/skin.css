@@ -620,7 +620,7 @@ h5.project-title{
 }
 .header-1 .navigation > ul > li > a,
 .header-1 .navigation-show a{
-	color: #000000;
+	color: #fff;
 }
 .header-1 .navigation > ul > li > a:hover{
 	opacity: 1;
