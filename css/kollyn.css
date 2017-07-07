@@ -1,0 +1,39 @@
+.header-1 {
+	background: #fff;
+	position: fixed;
+}
+
+.header-1 .navigation > ul > li > a {
+	opacity: .8;
+}
+
+.header-1 .navigation > ul > li > a:hover {
+    opacity: 1;
+    color: #444;
+}
+
+
+
+.footer .navigation a, .footer .navigation a, .footer .social-list a {
+	font-size: 1.5rem;
+}
+
+.social-list {
+	  margin: auto !important;
+    display: block !important;
+    float: none !important;
+		text-align: center;
+}
+
+.social-list a, .social-list a span, .footer .social-list a  {
+	color: #ccc;
+}
+
+.video-work {
+	width: 60%;
+	margin: 1em auto;
+}
+
+/*.navigation {
+	display: none;
+}*/
