@@ -34,6 +34,11 @@
 	margin: 1em auto;
 }
 
+.header .logo {
+	width: 27.0rem;
+  margin-top: 4px;
+}
+
 /*.navigation {
 	display: none;
 }*/
